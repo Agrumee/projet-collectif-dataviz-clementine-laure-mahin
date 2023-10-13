@@ -1,19 +1,15 @@
 # Projet collectif Dataviz  
-## Clémentine  
-## Laure  
-## Mahin  
------------------------------------------------------------------
 
-## Objectif du projet :  
+# Objectif du projet :  
 
 Développer une application web permettant de visualiser des données de façon dynamique.  
 
-## Conditions :  
+# Conditions :  
 
 `* Langages utilisés : HTML - CSS - Javascript - JSON - Md`
 `* Durée du projet : 2 semaines`
 
-## Objectifs pédagogiques :  
+# Objectifs pédagogiques :  
 
 `* Travailler notre organisation d'équipe  `
 `* Partager les tâches entre nous 3  `
@@ -27,22 +23,42 @@ Rendez-vous sur [APIStarWars]https://swapi.dev/ ! Pour la retrouver
 
 --------------------------------------------------------------------
 
-## Description :  
+# Description :  
 
-La première difficulté a été de trouver sur quel sujet nous voulions travailler. Et ce ne fut pas une mince affaire.  
-Après moultes échanges, nous avons arrêté notre choix sur le système solaire et une API de la NASA.  
-Mais un autre groupe de notre promo ayant déjà fait ce choix, nous ne voulions pas avoir la même base de travail qu'eux.  
-  
-Il a donc été décidé de mélanger deux de nos univers : l'univers Pokémon et Star Wars.  
-Nous allons donc créer un Pokedex de planètes : Le Planètdex !  
-  
-Pour cela, nous utilisons une API sur l'univers star wars. L'API est simple mais nous avons beaucoup travaillé sur le CSS afin  
-que l'application soit la plus fidèle possible d'un Pokedex.
+L'application se présente comme un tableau de bord que l'on pourrait retrouver dans un jeu vidéo. Celui-ci permet de visualiser les planètes déjà découvertes par l'utilisateur, et d'afficher leurs données en cliquant dessus.
 
-## Annexes :  
-`* Journal de bord `
+# Organisation du travail :
+
+Nous avons fait le choix de travailler avec un Trello.
+
+## Première étape : Définir un MVP
+
+Nous avons rencontré des difficultés dès le début du projet car nous ne savions pas quel sujet choisir ni quelle API.
+Nous avons consacré notre première journée à la découverte des appels API en JS avec l'utilisation des promesses. 
+Nous avons également parcouru des listes d'API, à la recherche d'une idée de projet.
+Le deuxième jour, nous avons décidé, sur les conseils de nos encadrants, de travailler sur l'API de la NASA sur le système solaire.
+Cependant, un autre groupe de travail avait fait ce choix et nous avons préféré changer d'API et donc de MVP.
+Le troisième jour, nous avons été compris que nous avions des difficultés à collaborer les uns avec les autres, en raison de mode de communication différents.
+Plutôt que d'ignorer ce problème, nous avons décidé d'organiser un point. Chacun a pu bénéficier d'un espace de parole propre pour s'exprimer. Puis nous avons proposé des règles à instaurer pour établir une charte.
+Suite à cela, nous avons pu définir notre MVP.
+--> Nous sommes partis d'un objectif visuel (le pokedex de Pokémon Arcéus), et nous avons commencé à structurer notre page html en fonction.
+
+A partir du quatrième jour, nous avons vraiment pu commencer à coder.
+
+## Deuxième étape : La réalisation du MVP
+
+Nous nous sommes divisé les tâches. Laure a commencé à travailler sur le css. De notre côté, Mahinthan et moi avons travailler sur l'appel API, la récupération des données et leur traitement.
+J'ai également ajouté un fichier annexe pour ajouter des données qui "manquaient" à l'API. Pour réaliser notre projet, nous avons décidé d'attribuer des types aux planètes de star wars (type plante, terre, eau etc.), c'est pourquoi c'était nécessaire.
+Laure a rencontré des difficultés à travailler seule sur le CSS. C'est pourquoi, j'ai ensuite pris le sujet en main. J'en ai profité pour découvrir l'usage des flex-box. De leur côté, Laure et Mahinthan ont travaillé sur des animations CSS, ils ont ajouté des effets visuels au clic des planètes et également à loader car notre API mettait parfois du temps à répondre.
+
+## Troisième étape : Aller plus loin
+
+Suite à la réalisation du MVP, il nous restait assez peu de temps. J'ai eu envie de tester un autre modèle d'appel API suite à la découverte d'un site qui permettait de classer les planètes de l'univers star wars en fonction d'une caractèristique, leur taille, la démographie, le poids etc.
+J'ai trouvé ça vraiment très intéressant et avec l'accord de Laure et Mahinthan, j'ai proposé d'ajouter un onglet qui permettrait d'afficher le classement des planètes par rapport à leur taille.
+L'appel API permet donc de générer la liste des planètes puis nous faisons apparaitre leur classement dans un menu déroulant.
+Si nous avions pu aller plus loin, nous aurions voulu proposer un affichage proportionné de la photo de chacune des planètes.
 
 
 
-
+![Alt inspiration](inspiration.jpg)  ![Alt Planetdex](planetdex.png)   ![Alt onglet tri en fonction du diamètre](diametre.png)   
 
