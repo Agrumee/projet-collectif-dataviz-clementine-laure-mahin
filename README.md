@@ -1,15 +1,15 @@
 # Projet collectif Dataviz  
 
-# Objectif du projet :  
+## Objectif du projet :  
 
 Développer une application web permettant de visualiser des données de façon dynamique.  
 
-# Conditions :  
+## Conditions :  
 
 `* Langages utilisés : HTML - CSS - Javascript - JSON - Md`
 `* Durée du projet : 2 semaines`
 
-# Objectifs pédagogiques :  
+## Objectifs pédagogiques :  
 
 `* Travailler notre organisation d'équipe  `
 `* Partager les tâches entre nous 3  `
@@ -23,15 +23,15 @@ Rendez-vous sur [APIStarWars]https://swapi.dev/ ! Pour la retrouver
 
 --------------------------------------------------------------------
 
-# Description :  
+## Description :  
 
 L'application se présente comme un tableau de bord que l'on pourrait retrouver dans un jeu vidéo. Celui-ci permet de visualiser les planètes déjà découvertes par l'utilisateur, et d'afficher leurs données en cliquant dessus.
 
-# Organisation du travail :
+### Organisation du travail :
 
 Nous avons fait le choix de travailler avec un Trello.
 
-## Première étape : Définir un MVP
+#### Première étape : Définir un MVP
 
 Nous avons rencontré des difficultés dès le début du projet car nous ne savions pas quel sujet choisir ni quelle API.
 Nous avons consacré notre première journée à la découverte des appels API en JS avec l'utilisation des promesses. 
@@ -45,13 +45,13 @@ Suite à cela, nous avons pu définir notre MVP.
 
 A partir du quatrième jour, nous avons vraiment pu commencer à coder.
 
-## Deuxième étape : La réalisation du MVP
+#### Deuxième étape : La réalisation du MVP
 
 Nous nous sommes divisé les tâches. Laure a commencé à travailler sur le css. De notre côté, Mahinthan et moi avons travailler sur l'appel API, la récupération des données et leur traitement.
 J'ai également ajouté un fichier annexe pour ajouter des données qui "manquaient" à l'API. Pour réaliser notre projet, nous avons décidé d'attribuer des types aux planètes de star wars (type plante, terre, eau etc.), c'est pourquoi c'était nécessaire.
 Laure a rencontré des difficultés à travailler seule sur le CSS. C'est pourquoi, j'ai ensuite pris le sujet en main. J'en ai profité pour découvrir l'usage des flex-box. De leur côté, Laure et Mahinthan ont travaillé sur des animations CSS, ils ont ajouté des effets visuels au clic des planètes et également à loader car notre API mettait parfois du temps à répondre.
 
-## Troisième étape : Aller plus loin
+#### Troisième étape : Aller plus loin
 
 Suite à la réalisation du MVP, il nous restait assez peu de temps. J'ai eu envie de tester un autre modèle d'appel API suite à la découverte d'un site qui permettait de classer les planètes de l'univers star wars en fonction d'une caractèristique, leur taille, la démographie, le poids etc.
 J'ai trouvé ça vraiment très intéressant et avec l'accord de Laure et Mahinthan, j'ai proposé d'ajouter un onglet qui permettrait d'afficher le classement des planètes par rapport à leur taille.
@@ -60,5 +60,5 @@ Si nous avions pu aller plus loin, nous aurions voulu proposer un affichage prop
 
 
 
-![Alt inspiration](inspiration.jpg)  ![Alt Planetdex](planetdex.png)   ![Alt onglet tri en fonction du diamètre](diametre.png)   
+![Alt inspiration](inspiration.jpg)  ![Alt Planetdex](planetdex.png)   ![Alt onglet tri en fonction du diamètre](diametre.png)  ![Alt charte collective](charte.png)      
 
